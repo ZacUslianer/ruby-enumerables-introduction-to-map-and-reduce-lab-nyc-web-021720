@@ -67,6 +67,8 @@ total = 0
 while counter < source_array.length
   if source_array == true[counter] 
   total += source_array
+else
+  nil
   end
   counter += 1
 end
