@@ -22,3 +22,14 @@ def map_to_no_change(source_array)
  end
 new_array
 end
+
+def map_to_no_change(source_array)
+  counter = 0 
+  new_array = []
+  while counter < source_array.length 
+  source_array[counter] * 2
+  new_array << source_array[counter] * 2
+ counter += 1
+ end
+new_array
+end
