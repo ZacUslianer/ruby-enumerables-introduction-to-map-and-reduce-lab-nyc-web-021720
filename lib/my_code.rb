@@ -60,4 +60,15 @@ while counter < source_array.length
 end
 total
 end
+
 def reduce_to_any_true(source_array)
+  counter = 0 
+total = 0 
+while counter < source_array.length
+  if source_array[counter] == true 
+  total += source_array[counter]
+  end
+  counter += 1
+end
+total
+end
