@@ -60,3 +60,4 @@ while counter < source_array.length
 end
 total
 end
+def reduce_to_any_true(source_array)
