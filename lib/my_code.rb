@@ -54,7 +54,9 @@ counter = 0
 total = 0 
 while counter < source_array.length
   if source_array == true 
-  
+  total += source_array
   end
+  counter += 1
 end
+total
 end
